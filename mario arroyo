@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concrete Lead Generation Website</title>
+  <meta name="description" content="Generate leads for your concrete business with our professional website. Get a free quote today.">
+  <meta name="keywords" content="concrete, lead generation, website, free quote, professional">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Concrete Lead Generation Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h2>Get More Concrete Leads</h2>
+      <p>Our professional website can help you generate more leads for your concrete business. Get a free quote today.</p>
+      <a href="#contact" class="btn-primary">Get a Free Quote</a>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Concrete pouring</li>
+        <li>Concrete repair</li>
+        <li>Concrete sealing</li>
+        <li>Concrete staining</li>
+      </ul>
+    </section>
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <blockquote>
+        <p>"I've been using their services for years and they always deliver quality work."</p>
+        <cite>John Smith, Owner of ABC Concrete</cite>
+      </blockquote>
+      <blockquote>
+        <p>"They were able to repair my concrete driveway quickly and at a reasonable price."</p>
+        <cite>Jane Doe, Homeowner</cite>
+      </blockquote>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Concrete Lead Generation Website</p>
+  </footer>
+</body>
+</html>
